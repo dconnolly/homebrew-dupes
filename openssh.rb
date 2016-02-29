@@ -1,10 +1,10 @@
 class Openssh < Formula
   desc "OpenBSD freely-licensed SSH connectivity tools"
   homepage "http://www.openssh.com/"
-  url "http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-7.1p2.tar.gz"
-  mirror "https://www.mirrorservice.org/pub/OpenBSD/OpenSSH/portable/openssh-7.1p2.tar.gz"
-  version "7.1p2"
-  sha256 "dd75f024dcf21e06a0d6421d582690bf987a1f6323e32ad6619392f3bfde6bbd"
+  url "http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-7.2p1.tar.gz"
+  mirror "https://www.mirrorservice.org/pub/OpenBSD/OpenSSH/portable/openssh-7.2p1.tar.gz"
+  version "7.2p1"
+  sha256 "973cc37b2f3597e4cf599b09e604e79c0fe5d9b6f595a24e91ed0662860b4ac3"
 
   bottle do
     sha256 "3cd4f668af0d8c71921b727e3303ce6a1c1fa9d110f7566277dded684de79c32" => :el_capitan
